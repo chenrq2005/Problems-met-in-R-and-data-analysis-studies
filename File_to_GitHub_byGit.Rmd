@@ -1,0 +1,12 @@
+---
+title: "Load files and folders to GitHub by Git"
+author: Ruiqiang Chen
+output: html_document
+---
+
+This is a way to load files and folders to Github existing repository. 
+
+1. Download and install Git first. This [link] [1] should work for Git downloading.
+[1]: http://git-scm.com/downloads
+   Install the Git by double click. 
+2. Open the Git Bash, 
