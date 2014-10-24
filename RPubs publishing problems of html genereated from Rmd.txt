@@ -6,8 +6,9 @@
        options(RCurlOptions = list(verbose = FALSE, capath = system.file("CurlSSL", "cacert.pem", package = "RCurl"), ssl.verifypeer = FALSE)
 
    1.2 clikc File -> save as, Save as type "All Files", in the File name put ".Rprofile" (actruall no any name) or "RProfile.site"
-   1.3 put the saved file to the directory where the being published Rmd file is.
+   1.3 put the saved file to the directory where the being published Rmd file is, and put the saved file to R directory (maybe the 
+       later action really works). 
 2. Load requred packages "RCurl" and "bitops"
 3. knit the being published Rmd file to generate html file
-4. in the html file click the "publish", hopefully it works now. 
+4. in the html file click the "publish", hopefull it works now. 
  
